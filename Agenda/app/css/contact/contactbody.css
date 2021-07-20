@@ -1,0 +1,121 @@
+/*ESTILOS EN EL HTML*/
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/*ESTILOS EN EL CUERPO*/
+body{
+    /*background-color: cornflowerblue;*/
+    background-image: url(../../data/image/D.gif);
+    background-size: 100% 100%;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+/*ESTILOS EN EL FORMULARIO*/
+form{
+    /*background-color: rgba(255, 70, 70, 0.788);*/
+    /*background-image: url(../data/image/C.gif);*/
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 10%;
+    font-size: 100%;
+    border: 3px solid #eece76;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    align-items: center;
+    width: 63.4%
+
+}
+form:hover{
+    /*background-color: rgba(18, 122, 241, 0.527);*/
+    border: 4px solid #ffc400;
+    background-image: url(../../data/image/F.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all .5s ease-in-out;
+}
+/*ESTILOS EN LA TABLA*/
+table{
+    margin: 1%;
+}
+tr, td{
+    border: 3px solid #ff9f32;
+    background-color: rgb(255, 197, 159);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 10px 4px 10px;
+    margin: 1%;
+}
+#button{
+    width: 100%;
+    background-color: rgb(223, 255, 82);
+    border-color: rgb(255, 81, 0);
+}
+#button:hover{
+    background-color: rgb(82, 200, 255);
+    border-color: rgb(111, 0, 255);
+}
+/*ESTILOS EN EL BOTON*/
+button{
+    background-color: rgb(82, 255, 189);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+    font-weight: 600;
+    border-radius: 0%;
+    border-color: rgb(51, 255, 0);
+    height: 40%;
+    width: 25%;
+}
+button:hover{
+    background-color: rgb(0, 110, 255);
+    border-color: #ffc400;
+}
+/*ESTILOS EN EL DARK*/
+.oscuro tr{
+    border: 3px solid #474747;
+    background-color: rgb(122, 122, 122);
+
+}
+.oscuro td{
+    border: 3px solid #474747;
+    background-color: rgb(122, 122, 122);
+}
+
+.oscuro form{
+    border: 3px solid #aa76ee;
+
+}
+.oscuro form:hover{
+    background-image: url(../../data/image/Cd.gif);
+    border: 4px solid #d400ff;
+    transition: all .5s ease-in-out;
+
+    
+}
+.oscuro #button{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-color: rgb(145, 145, 145);
+}
+.oscuro #button:hover{
+    background-color: rgb(82, 200, 255);
+    border-color: rgb(111, 0, 255);
+}
+
+.oscuro #agregar{
+    width: 100%;
+    background-color: rgb(15, 125, 168);
+    border-color: rgb(61, 10, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+    font-weight: 600;
+    border-radius: 0%;
+    height: 40%;
+    width: 25%;
+}
+.oscuro #agregar:hover{
+    background-color: rgb(0, 204, 255);
+    border-color: #0011ff;
+}

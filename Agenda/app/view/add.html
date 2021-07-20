@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TITULO-->
+    <title>Centech</title>
+    <!--IMPORTACIONES-->
+    <script type="text/javascript" src="../../app/js/darkmode.js"></script>
+    <link rel="stylesheet" href="../../app/css/all.css">
+    <link rel="stylesheet" href="../../app/css/header.css">
+    <link rel="stylesheet" href="../../app/css/add/addbody.css">
+    <link rel="shortcut icon" href="../../app/data/image/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body id="contactbody">
+    <header>
+        <!--LOGO-->
+        <img src="../../app/data/image/logo.png" class="imglh">
+        <!--ICONOS-->
+        <nav class="navMenu">
+            <a href="../view/contact.html"><i class="material-icons">arrow_back</i>BACK</a>
+        <!--Modo oscuro-->
+        <button type="button" class="btn-dark" onclick="cambiarModo()">
+            <img src="../../app/data/image/darkMode.png" id ="imgdark"></button>
+        </nav>
+    </header>
+    <!--FORMULARIO CONTACT-->
+    <form>
+        <!--TABLA DE LA AGENDA-->
+        <table>
+            <!--FILA 1-->
+            <tr>
+                <td>USER</td>
+                <td>NAME</td>
+                <td>LASTNAME</td>
+                <td>EMAIL</td>
+                <td>PHONE</td>
+                <td>PHOTO</td>
+            </tr>
+            <!--FILA 2-->
+            <tr>
+                <td><Input></Input></td>
+                <td><Input></Input></td>
+                <td><Input></Input></td>
+                <td><Input></Input></td>
+                <td><Input></Input></td>
+                <td><a href="../view/error.html"><button type="button" id="button">Insert..</button></a></td>
+            </tr>
+        </table>
+        <a href="../../app/view/error.html"><button type="button" id="agregar">AGREGAR</button></a><br>
+    </form>    
+</body>
+</html>

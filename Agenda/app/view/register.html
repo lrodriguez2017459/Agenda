@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TITULO-->
+    <title>Centech</title>
+    <!--IMPORTACIONES-->
+    <script type="text/javascript" src="../../app/js/darkmode.js"></script>
+    <link rel="stylesheet" href="../../app/css/all.css">
+    <link rel="stylesheet" href="../../app/css/header.css">
+    <link rel="stylesheet" href="../../app/css/register/registerbody.css">
+    <link rel="shortcut icon" href="../../app/data/image/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body id="registerbody">
+    <header>
+        <!--LOGO-->
+        <img src="../../app/data/image/logo.png" class="imglh">
+        <!--ICONOS-->
+        <nav class="navMenu">
+            <a href="../../login.html"><i class="material-icons">person</i>LOGIN</a>
+        <!--Modo oscuro-->
+        <button type="button" class="btn-dark" onclick="cambiarModo()">
+            <img src="../../app/data/image/darkMode.png" id ="imgdark"></button>
+        </nav>
+    </header>
+    <!--FORMULARIO REGISTER-->
+    <form>
+        <br>
+        <div class="div1">
+            <p for="text">User</p>
+            <input type="text" id="user" name="user"><br><br></div>
+        <div class="div1">
+            <p for="text">Name</p>
+            <input type="text" id="name" name="name"><br><br></div>
+        <div class="div1">
+            <p for="text">LastName</p>
+            <input type="text" id="lastName" name="lastName"><br><br></div>
+        <div class="div1">
+            <p for="number">Phone</p>
+            <input type="number" id="number" name="number"><br><br></div>
+        <div class="div1">
+            <p for="mail">Email</p>
+            <input type="mail" id="mail" name="mail"><br><br></div>
+        <div class="div1">
+            <p for="password" id="password" formArrayName="pass">Password</p>
+            <input type="password" id="password" name="password"><br><br></div>
+        <a href="../../app/view/contact.html"><button type="button">Registrarse</button></a><br>
+    </form>    
+</body>
+</html>

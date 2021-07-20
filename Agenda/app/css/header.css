@@ -1,0 +1,116 @@
+/*ESTILOS EN EL ENCABEZADO*/
+header{
+   /* background-color: royalblue;*/
+    background-image: url("../data/image/B.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-size: 100% 100%;
+    padding: 0;
+    height: 12%;
+    text-align: right;
+}
+
+/*ESTILOS EN EL LOGO*/
+.imglh{
+    top: 4px;
+    left: 4px;
+    width: 5%;
+    display: inline-block;
+    position: absolute;
+}
+/*ESTILOS EN LOS ICONOS*/
+.navMenu a{
+    display: inline-block;
+
+    margin: 0px 0px 0px 0px;
+    transition: color .5s ease-in-out;
+    
+}
+.navMenu{
+    width: 100%;
+    height: 100%; 
+}
+header .navMenu a{
+    text-decoration: none;
+    color: rgb(64, 120, 231);
+    /*background-color: rgb(59, 108, 165);*/
+    border-radius: 5%;
+    margin: 0px 0px 0px 0px;
+    padding: 14px 15px 16px 15px;
+    line-height: 90px;
+    font-size: 17px;
+    font-weight: 800;
+    position: relative;
+    top: 0%;
+    right: 7.2%;
+    height: 63%;
+
+}
+.navMenu a:hover{
+
+    color: rgba(55, 33, 119, 0.76);
+    background-color: rgba(91, 27, 150, 0.158);
+}
+header .navMenu  i{
+    position: relative;
+    top: 5px;
+    font-size: 50px;
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 0px;
+    
+}
+/*ESTILOS EN El DARK MODE*/
+.btn-dark{
+    margin: 0px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    background-color: #ccf5f8;
+    border-color: rgba(228, 218, 218, 0.815);
+    width: 7%;
+    height: 100%;
+    position: absolute;
+    transition: all .5s ease-in-out;
+    top: 0%;
+    right: 0%;
+}
+.btn-dark:hover{
+    background-color: #1f1f1f;
+    border-color: black;
+}
+#imgdark{
+    width: 45%;
+    display: inline-block;
+    position: relative;
+}
+
+.oscuro{ 
+    background-color: #1f1f1f;
+    background-image: url("../data/image/Kd.gif"); 
+    color: #f1eded; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.oscuro header{
+    background-image: url("../data/image/Ed.gif"); 
+    color: #f1eded; 
+    background-size: 100%;
+}
+.oscuro header .navMenu .btn-dark{
+    background-color: #1f1f1f;
+    border-color: black;
+}
+
+.oscuro header .navMenu .btn-dark:hover{
+    background-color: #ccf5f8;
+    border-color: rgba(228, 218, 218, 0.815);}
+
+.oscuro header .navMenu a{
+    color: aqua;
+    transition: all .5s ease-in-out;
+}
+.oscuro .navMenu a:hover{
+    background-color: rgb(214, 125, 255);
+}
